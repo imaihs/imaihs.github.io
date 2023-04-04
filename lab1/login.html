@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Навігаційна панель -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Калькулятор</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="login.html">Увійти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Реєстрація</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">Інформація</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Профіль</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Контент входу -->
+    <div class="container sign-container">
+		<h2>Вхід користувача</h2>
+		<form>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Введіть email" name="email">
+			</div>
+			<div class="form-group">
+				<label for="password">Пароль:</label>
+				<input type="password" class="form-control" id="password" placeholder="Введіть пароль" name="password">
+			</div>
+			<button type="submit" class="btn btn-primary">Увійти</button>
+		</form>
+	</div>
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
